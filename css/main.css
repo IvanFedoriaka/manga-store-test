@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;1,500;1,700&display=swap');
+
+/*relative - you can move a element, relative to where it normally would be in a document
+absolute - everything else renders as if that absolute element didnt even exist´
+fixed- the element is fixed on his place, as you scroll
+sticky - element becomes fixed as it hits the top of the page
+*/
+
+body {
+    width: 100%;
+    height: 50px;
+    background: url(https://sport.mail.ru/img/_main/subnav.png)
+}
+
+img {
+    display: block;
+}
+
+.navigation-bar_wrapper {
+    height: 70px;
+    background: black;
+    width: 100%;
+    position: relative;
+    margin: 0px;
+    position: fixed;
+    z-index: 60;
+}
+
+.navigation-bar_border {
+    display: block;
+    height: 3px;
+    background: linear-gradient(to left, #000, #717171, #000);
+    position: relative;
+    margin-top: -34px;
+    z-index: 2;
+}
+
+.navigation-bar_wrapper input[type=text] {
+    display: block;
+    background: #2C2C2C;
+    width: 600px;
+    height: 35px;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    top: 17.5px;
+    color: #fff;
+    padding-left: 6px;
+    position: absolute;
+    margin-left: 660px;
+    z-index: 3;
+}
+
+.web-logo_link {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    right: -250px;
+}
+
+.web-logo {
+    border-radius: 10px;
+    position: relative;
+    z-index: 4;
+}
+
+.navigation-bar_link1 {
+    position: absolute;
+    left: 1700px;
+    top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lilita One', cursive;
+    z-index: 5;
+}
+
+.navigation-bar_link2 {
+    position: absolute;
+    left: 1550px;
+    top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lilita One', cursive;
+    z-index: 5;
+}
+
+.navigation-bar_link3 {
+    position: absolute;
+    left: 1435px;
+    top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lilita One', cursive;
+    z-index: 5;
+}
+
+.navigation-bar_link1:hover {
+    color: black;
+    background: #fff;
+    border-radius: 3px;
+    border-color: #fff;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+
+.navigation-bar_link2:hover {
+    color: black;
+    background: #fff;
+    border-radius: 3px;
+    border-color: #fff;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+
+.navigation-bar_link3:hover {
+    color: black;
+    background: #fff;
+    border-radius: 3px;
+    border-color: #fff;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+
+.hero-slider_image {
+    padding: 0;
+    height: 700px;
+    position: relative;
+    top: 73px;
+    margin: auto;
+    z-index: 0;
+}
+
+.hero-slider_new {
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    color: yellow;
+    position: relative;
+    bottom: 390px;
+    left: 501px;
+    z-index: 3;
+}
+
+.hero-slider_title1 {
+    font-size: 70px;
+    color: white;
+    /*-webkit-text-stroke: 2px white;*/
+    display: inline-block;
+    position: relative;
+    bottom: 390px;
+    left: 500px;
+    z-index: 3;
+}
+
+.manga-description {
+    font-size: 20px;
+    color: white;
+    font-family: 'Alkalami', serif;
+    text-align: left;
+    line-height: 28px;
+    position: relative;
+    bottom: 370px;
+    left: 501px;
+    z-index: 3;
+}
+
+.more-info_button {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #717171;
+    border-radius: 20px;
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    max-width: 150px;
+    padding-top: 17px;
+    padding-left: 40px;  
+    position: relative;
+    left: 500px;
+    bottom: 350px;
+    z-index: 3;
+}
+
+.gradient-shadow-hero-slider {
+    height: 10px;
+    width: 300px;
+    position: relative;
+    top: -627px;
+}
+
+.shadow-left {
+    padding: 325px;
+    box-shadow: inset black 500px 0px 150px;
+    height: 50px;
+    width: 301px;
+    position: relative;
+    z-index: 2;
+}
+
+.shadow-right {
+    padding: 325px;
+    box-shadow: inset black -500px 0px 150px;
+    height: 50px;
+    width: 302px;
+    position: relative;
+    right: -951px;
+    bottom: 1350px;
+}
+
+.shadow-bottom {
+    padding: 325px;
+    box-shadow: inset black 0px -350px 500px;
+    width: 1253px;
+    position: relative;
+    bottom: 650px;
+    z-index: 1;
+}
+
+.button-left {
+    position: relative;
+    bottom: 280px;
+    margin-left: 400px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.button-right {
+    position: relative;
+    margin-left: 1500px;
+    bottom: 300px;
+    cursor: pointer;
+    z-index: 3;
+}
+
