@@ -1,0 +1,101 @@
+.navigation-bar_wrapper {
+    height: 70px;
+    background: black;
+    width: 100%;
+    position: relative;
+    margin: 0px;
+    position: fixed;
+    z-index: 60;
+}
+
+.navigation-bar_border {
+    display: block;
+    height: 3px;
+    background: linear-gradient(to left, #000, #717171, #000);
+    position: relative;
+    margin-top: -34px;
+    z-index: 2;
+}
+
+.navigation-bar_wrapper input[type=text] {
+    display: block;
+    background: #2C2C2C;
+    width: 600px;
+    height: 35px;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    top: 17.5px;
+    color: #fff;
+    padding-left: 6px;
+    position: absolute;
+    margin-left: 660px;
+    z-index: 3;
+}
+
+
+.navigation-bar_link1 {
+    position: absolute;
+    left: 1700px;
+    top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lilita One', cursive;
+    z-index: 5;
+}
+
+.navigation-bar_link2 {
+    position: absolute;
+    left: 1550px;
+    top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lilita One', cursive;
+    z-index: 5;
+}
+
+.navigation-bar_link3 {
+    position: absolute;
+    left: 1435px;
+    top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lilita One', cursive;
+    z-index: 5;
+}
+
+.navigation-bar_link1:hover {
+    color: black;
+    background: #fff;
+    border-radius: 3px;
+    border-color: #fff;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+
+.navigation-bar_link2:hover {
+    color: black;
+    background: #fff;
+    border-radius: 3px;
+    border-color: #fff;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+
+.navigation-bar_link3:hover {
+    color: black;
+    background: #fff;
+    border-radius: 3px;
+    border-color: #fff;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
