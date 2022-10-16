@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    height: 545px;
+    max-height: 545px;
+    background-color: #222;
+    display: block;
+    position: relative;
+    margin-top: 3171px;
+}
+
+.footer-container {
+    height: 475px;
+    max-height: 475px;
+    max-width: 1284px;
+    margin: 0 auto;
+    background-color: red;
+}
