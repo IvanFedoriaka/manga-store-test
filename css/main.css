@@ -18,7 +18,7 @@ sticky - element becomes fixed as it hits the top of the page
 body {
     width: 100%;
     height: 50px;
-    background: url(https://sport.mail.ru/img/_main/subnav.png)
+    background: url(background-image.png)
 }
 
 img {
