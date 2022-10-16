@@ -25,19 +25,6 @@ img {
     display: block;
 }
 
-.web-logo_link {
-    display: inline-block;
-    position: relative;
-    top: 30px;
-    right: -250px;
-}
-
-.web-logo {
-    border-radius: 10px;
-    position: relative;
-    z-index: 4;
-}
-
 .hero-slider_image {
     padding: 0;
     height: 700px;
