@@ -1,3 +1,11 @@
+.footer hr {
+    display: block;
+    border-color: #2C2C2C;
+    border-style: solid;
+    position: relative;
+    top: 40px;
+}
+
 .footer {
     width: 100%;
     height: 545px;
@@ -13,5 +21,38 @@
     max-height: 475px;
     max-width: 1284px;
     margin: 0 auto;
-    background-color: red;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    height: 241px;
+    position: relative;
+    bottom: -30px;
+}
+
+.footer-community {
+    position: relative;
+    height: 241px;
+    width: 313px;
+    display: block;
+}
+
+.footer-community_img {
+    width: initial;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-community_text {
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+    right: -30px;
+    top: 30px;
+    color: #FF3F6C;
+    font-family: 'Shrikhand', cursive;
+    font-size: 18px;
+    font-weight: 600;
 }
