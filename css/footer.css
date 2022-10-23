@@ -49,10 +49,84 @@
     flex: 1;
     flex-direction: column;
     position: relative;
-    right: -30px;
-    top: 30px;
+    right: -25px;
+    top: 24px;
     color: #FF3F6C;
     font-family: 'Shrikhand', cursive;
     font-size: 18px;
     font-weight: 600;
+}
+
+.footer-social {
+    position: relative;
+    left: 80px;
+    top: 50px;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+}
+
+.instagram {
+    padding-right: 25px;
+    position: relative;
+    top: 2px;
+}
+
+.telegram {
+    padding-right: 25px;
+}
+
+.footer_links {
+    flex-direction: row;
+    flex: 3;
+    display: flex;
+    font-size: 16px;
+    line-height: 2;
+    position: relative;
+    right: -430px;
+    top: -185px;
+}
+
+.footer_links h4 {
+    font-size: 18px;
+    color: white;
+}
+
+.footer-links_item {
+    width: 150px;
+    height: 233px;
+    position: relative;
+    padding-right: 110px;
+}
+
+.links-item_body a {
+    text-decoration: none;
+    color: #B8B8B8;
+}
+
+.links-item_body li {
+    list-style-type: none;
+}
+
+.footer-bottom {
+    background: #2b2929;
+    width: 100%;
+    height: 70px;
+}
+
+.span-copyright {
+    font-size: 17px;
+    color: white;
+    position: relative;
+    right: -380px;
+    top: 25px;
+}
+
+.footer-bottom a {
+    text-decoration: underline;
+    color: #FF3F6C;
+    font-size: 17px;
+    position: relative;
+    right: -1300px;
+    top: 25px;
 }

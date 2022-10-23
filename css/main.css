@@ -11,6 +11,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
 /*relative - you can move a element, relative to where it normally would be in a document
 absolute - everything else renders as if that absolute element didnt even exist´
 fixed- the element is fixed on his place, as you scroll
